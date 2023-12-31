@@ -1,70 +1,183 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato:wght@400;700&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+* {
+    box-sizing: border-box;
+}
+html, body, #root, #defaultLayout, #guestLayout {
+    min-height: 100vh;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #212121;
+    background-color: #f6f6f6;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.text-center {
+    text-align: center;
+}
+.loading-circle {
+    display: table;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.cardWide {
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.cardWide {
+    width: 100%;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.notification {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+    padding: 1rem 1.5rem;
+    background-color: #00a762;
+    color: white;
+    border-radius: 0.5rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.login-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#defaultLayout {
+    display: flex;
+}
+
+#defaultLayout aside {
+    width: 240px;
+    background-color: #1c427a;
+    padding: 1rem;
+    font-size: 16px;
+}
+#defaultLayout aside > .main_logo {
+    display: block;
+    padding: 0 0 3rem 0;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+#defaultLayout aside > .menu_header {
+    display: block;
+    padding: 2rem 0.75rem 0.75rem 1rem;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+#defaultLayout aside > a {
+    display: block;
+    padding: 0.75rem 0 0.75rem 0;
+    border-radius: 6px;
+    color: #FF8E00;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#defaultLayout aside > a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#defaultLayout aside > .icon {
+    display: block;
+    float: left;
+    padding: 0.75rem 0.75rem 0.75rem 0;
+    color: white;
+}
+
+
+#defaultLayout .content {
+    flex: 1;
+}
+
+#defaultLayout .content_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#defaultLayout .content_header h1 {
+    font-family: 'Carter One', sans-serif;
+    color: #1c427a;
+    font-size: 28px;
+}
+#defaultLayout .content_header a {
+    text-decoration: none;
+    color: #1c427a;
+}
+.content_header_icon {
+    padding: 0 1rem 0 0;
+}
+#defaultLayout header {
+    height: 100px;
+    padding: 2rem 3rem;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#defaultLayout .header_user_info {
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 2.5rem 1rem;
+}
+#defaultLayout .header_avatar {
+    display: block;
+    padding: 1rem 0;
+    float: left;
+
+}
+
+#defaultLayout .header_logout {
+    display: block;
+    float: right;
+    padding: 2rem 1rem;
+}
+#defaultLayout main {
+    padding: 2rem;
+}
+
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
