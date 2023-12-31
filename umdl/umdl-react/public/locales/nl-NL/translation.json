@@ -1,0 +1,358 @@
+{
+    "general": {
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "duplicate": "Dupliceren",
+        "move_up": "Verplaats omhoog",
+        "move_down": "Verplaats omlaag",
+        "new": "Nieuw",
+        "bulk_upload": "Bulk Upload",
+        "logout": "Uitloggen",
+        "loading": "Laden...",
+        "save": "Opslaan",
+        "add": "Toevoegen",
+        "cancel": "Annuleren",
+        "back": "Terug"
+    },
+    "login": {
+        "email_field": "E-mailadres",
+        "password_field": "Wachtwoord",
+        "submit_button": "Inloggen"
+    },
+    "signup_form": {
+        "title": "Inschrijven als nieuwe gebruiker"
+    },
+    "default_layout": {
+        "link_dashboard": "Dashboard",
+        "link_categories": "Categorieën",
+        "link_blocks": "Blokken",
+        "link_questions": "Vragen",
+        "link_quizzes": "Quizzen",
+        "link_images": "Afbeeldingen",
+        "link_video": "Videofragmenten",
+        "link_audio": "Audiofragmenten",
+        "link_config": "Configuratieschema's",
+        "link_users": "Gebruikers",
+        "link_sales": "Verkopen",
+        "title": "QuizMixer Studio v0.5"
+    },
+    "users": {
+        "title": "Gebruikers",
+        "header_id": "ID",
+        "header_image": "Avatar",
+        "header_full_name": "Volledige naam",
+        "header_email": "E-mailadres",
+        "header_actions": "Acties",
+        "delete_confirm": "Weet je zeker dat je deze gebruiker wilt verwijderen?",
+        "delete_success": "De gebruiker is succesvol verwijderd."
+    },
+    "user_form": {
+        "update_title": "Gebruiker bijwerken",
+        "new_title": "Nieuwe gebruiker",
+        "first_name": "Voornaam",
+        "middle_name": "Tussenvoegsel",
+        "last_name": "Achternaam",
+        "image": "Avatar",
+        "email": "E-mailadres",
+        "password": "Wachtwoord",
+        "password_confirmation": "Bevestig Wachtwoord",
+        "upload_avatar": "Upload een avatar",
+        "new_success": "Gebruiker is succesvol toegevoegd",
+        "update_success": "Gebruiker is succesvol bijgewerkt"
+    },
+    "categories": {
+        "title": "Categorieën",
+        "header_id": "ID",
+        "header_parent": "Bovenliggende categorie",
+        "header_icon": "Icoon",
+        "header_title": "Categorienaam",
+        "header_actions": "Acties",
+        "delete_confirm": "Weet je zeker dat je deze categorie wilt verwijderen?",
+        "delete_success": "De categorie is succesvol verwijderd."
+    },
+    "category_form": {
+        "update_title": "Categorie bijwerken",
+        "new_title": "Nieuwe categorie",
+        "parent": "Bovenliggende categorie",
+        "image": "Icoon",
+        "title": "Categorienaam",
+        "add_success": "Categorie is succesvol toegevoegd",
+        "update_success": "Categorie is succesvol bijgewerkt",
+        "choose_icon": "Kies een icoon..."
+    },
+    "blocks": {
+        "title": "Blokken",
+        "header_id": "ID",
+        "header_category": "Categorie",
+        "header_icon": "Icoon",
+        "header_title": "Bloknaam",
+        "header_actions": "Acties",
+        "delete_confirm": "Weet je zeker dat je dit blok wilt verwijderen?",
+        "delete_success": "Het blok is succesvol verwijderd."
+    },
+    "block_form": {
+        "update_title": "Blok bijwerken",
+        "new_title": "Nieuw Blok",
+        "category": "Categorie",
+        "icon": "Icoon",
+        "image": "Afbeelding",
+        "title": "Bloknaam",
+        "description": "Omschrijving",
+        "value": "Waarde",
+        "duration": "Tijdsduur",
+        "new_success": "Blok is succesvol toegevoegd",
+        "update_success": "Blok is succesvol bijgewerkt",
+        "choose_icon": "Kies een icoon..."
+    },
+    "questions": {
+        "title": "Vragen",
+        "add_to_block": "Nieuwe vraag toevoegen",
+        "empty_block": "Er zijn nog geen vragen aan dit blok toegevoegd",
+        "delete_confirm": "Weet je zeker dat je deze vraag wilt verwijderen?",
+        "delete_success": "De vraag is succesvol verwijderd."
+    },
+    "question_form": {
+        "update_title": "Vraag bijwerken",
+        "new_title": "Nieuwe Vraag",
+        "block_id": "Bloknr.*",
+        "title": "Titel vraag (in menu)*",
+        "description": "Omschrijving",
+        "difficulty": "Moeilijkheid*",
+        "easy": "Makkelijk",
+        "medium": "Gemiddeld",
+        "hard": "Moeilijk",
+        "type": "Vraagtype*",
+        "choose_type": "Kies een type...",
+        "lead_text": "Vraagtekst (voor op sheet)",
+        "rich_text": "Citaat-tekst",
+        "answer_text": "Antwoord-tekst (op antwoordsheet)",
+        "order": "Volgordde in blok",
+        "audio": "Kies audiofragment",
+        "video": "Kies videofragment",
+        "image_1": "Afbeelding 1",
+        "image_2": "Afbeelding 2",
+        "answer_1_text": "Tekst Antwoordoptie A",
+        "answer_1_image": "Afbeelding Antwoordoptie A",
+        "answer_2_text": "Tekst Antwoordoptie B",
+        "answer_2_image": "Afbeelding Antwoordoptie B",
+        "answer_3_text": "Tekst Antwoordoptie C",
+        "answer_3_image": "Afbeelding Antwoordoptie C",
+        "answer_4_text": "Tekst Antwoordoptie D",
+        "answer_4_image": "Afbeelding Antwoordoptie D",
+        "connect_1_text": "Tekst Verbindoptie 1",
+        "connect_1_image": "Afbeelding Verbindoptie 1",
+        "connect_2_text": "Tekst Verbindoptie 2",
+        "connect_2_image": "Afbeelding Verbindoptie 2",
+        "connect_3_text": "Tekst Verbindoptie 3",
+        "connect_3_image": "Afbeelding Verbindoptie 3",
+        "connect_4_text": "Tekst Verbindoptie 4",
+        "connect_4_image": "Afbeelding Verbindoptie 4",
+        "correct": "Correct",
+        "new_success": "Vraag is succesvol toegevoegd",
+        "update_success": "Vraag is succesvol bijgewerkt"
+    },
+    "question_types": {
+        "ab_image": "A of B met afbeelding",
+        "ab_2image": "A of B met 2 afbeeldingen",
+        "ab_audio": "A of B met audiofragment",
+        "ab_video": "A of B met videofragment",
+        "ab_quote": "A of B met citaat",
+        "connect_text": "Verbindvraag (tekst)",
+        "connect_4image_left": "Verbindvraag met afbeeldingen (links)",
+        "connect_4image_right": "Verbindvraag met afbeeldingen (rechts)",
+        "mc": "Multiple choice",
+        "mc_image_left": "Multiple choice met afbeelding (links)",
+        "mc_image_right": "Multiple choice met afbeelding (rechts)",
+        "mc_2image_left": "Multiple choice met 2 afbeeldingen (links)",
+        "mc_2image_right": "Multiple choice met 2 afbeeldingen (rechts)",
+        "mc_4image_landscape": "Multiple choice met 4 afbeeldingen (liggend)",
+        "mc_4image_portrait": "Multiple choice met 4 afbeeldingen (staand)",
+        "mc_audio_left": "Multiple choice met audio (links)",
+        "mc_audio_right": "Multiple choice met audio (rechts)",
+        "mc_video_left": "Multiple choice met video (links)",
+        "mc_video_right": "Multiple choice met video (rechts)",
+        "mc_quote_left": "Multiple choice met citaat (links)",
+        "mc_quote_right": "Multiple choice met citaat (rechts)",
+        "open": "Open",
+        "open_image": "Open met afbeelding",
+        "open_2image": "Open met 2 afbeeldingen",
+        "open_audio": "Open met audio",
+        "open_video": "Open met video",
+        "open_quote": "Open met citaat"
+    },
+    "folder_form": {
+        "update_title": "Map bijwerken",
+        "new_title": "Nieuwe Map",
+        "name": "Mapnaam",
+        "type": "Maptype",
+        "image": "Afbeeldingen",
+        "audio": "Audiofragmenten",
+        "video": "Videofragmenten",
+        "config": "Configuratieschema's",
+        "new_success": "Map is succesvol toegevoegd",
+        "update_success": "Map is succesvol bijgewerkt"
+    },
+    "imagefolderview": {
+        "title": "Afbeeldingen",
+        "new": "Nieuwe map",
+        "images": "afbeelding(en)",
+        "delete_confirm": "Weet je zeker dat je deze map wilt verwijderen? Alle afbeeldingen in de map worden ook verwijderd.",
+        "delete_success": "De map met afbeeldingen is succesvol verwijderd."
+    },
+    "images": {
+        "title": "Afbeeldingen",
+        "new": "Toevoegen",
+        "delete_confirm": "Weet je zeker dat je deze afbeelding wilt verwijderen?",
+        "delete_success": "De afbeelding is succesvol verwijderd."
+    },
+    "image_form": {
+        "update_title": "Afbeelding bijwerken",
+        "new_title": "Nieuwe Afbeelding",
+        "label": "Label",
+        "folder": "Mapnummer",
+        "new_success": "Afbeelding is succesvol toegevoegd",
+        "update_success": "Afbeelding is succesvol bijgewerkt",
+        "upload_image": "Uploaden"
+    },
+    "image_bulk_form": {
+        "title": "Bulk-upload afbeeldingen",
+        "subtitle": "Kies één of meerdere afbeeldingen van je computer om up te loaden. De afbeeldingen krijgen allemaal hetzelfde label als de filename.",
+        "upload": "Upload",
+        "select": "Selecteer",
+        "upload_success": "Bulk-upload van afbeeldingen succesvol"
+    },
+    "audiofolderview": {
+        "title": "Audiofragmenten",
+        "new": "Nieuwe map",
+        "images": "audiofragment(en)",
+        "delete_confirm": "Weet je zeker dat je deze map wilt verwijderen? Alle audiofragmenten in de map worden ook verwijderd.",
+        "delete_success": "De map met audiofragmenten is succesvol verwijderd."
+    },
+    "audio": {
+        "title": "Audiofragmenten",
+        "new": "Toevoegen",
+        "delete_confirm": "Weet je zeker dat je dit audiofragment wilt verwijderen?",
+        "delete_success": "Het audiofragment is succesvol verwijderd."
+    },
+    "audio_form": {
+        "update_title": "Audiofragment bijwerken",
+        "new_title": "Nieuw Audiofragment",
+        "label": "Label",
+        "folder": "Mapnummer",
+        "new_success": "Audiofragment is succesvol toegevoegd",
+        "update_success": "Audiofragment is succesvol bijgewerkt",
+        "upload_audio": "Uploaden"
+    },
+    "audio_bulk_form": {
+        "title": "Bulk-upload audiofragmenten",
+        "subtitle": "Kies één of meerdere audiofragmenten van je computer om up te loaden. De audiofragmenten krijgen allemaal hetzelfde label als de filename.",
+        "upload": "Upload",
+        "select": "Selecteer",
+        "upload_success": "Bulk-upload van audiofragmenten succesvol"
+    },
+
+    "videofolderview": {
+        "title": "Videofragmenten",
+        "new": "Nieuwe map",
+        "images": "videofragment(en)",
+        "delete_confirm": "Weet je zeker dat je deze map wilt verwijderen? Alle videofragmenten in de map worden ook verwijderd.",
+        "delete_success": "De map met videofragmenten is succesvol verwijderd."
+    },
+    "video": {
+        "title": "Videofragmenten",
+        "new": "Toevoegen",
+        "delete_confirm": "Weet je zeker dat je dit videofragment wilt verwijderen?",
+        "delete_success": "Het videofragment is succesvol verwijderd."
+    },
+    "video_form": {
+        "update_title": "Videofragment bijwerken",
+        "new_title": "Nieuw Videofragment",
+        "label": "Label",
+        "folder": "Mapnummer",
+        "new_success": "Videofragment is succesvol toegevoegd",
+        "update_success": "Videofragment is succesvol bijgewerkt",
+        "upload_video": "Uploaden"
+    },
+    "video_bulk_form": {
+        "title": "Bulk-upload videofragmenten",
+        "subtitle": "Kies één of meerdere videofragmenten van je computer om up te loaden. De videofragmenten krijgen allemaal hetzelfde label als de filename.",
+        "upload": "Upload",
+        "select": "Selecteer",
+        "upload_success": "Bulk-upload van videofragmenten succesvol"
+    },
+    "configfolderview": {
+        "title": "Configuratieschema's",
+        "new": "Nieuwe map",
+        "images": "schema('s)",
+        "delete_confirm": "Weet je zeker dat je deze map wilt verwijderen? Alle configuratieschema's in de map worden ook verwijderd.",
+        "delete_success": "De map met configuratieschema's is succesvol verwijderd."
+    },
+    "config": {
+        "title": "Configuratieschema's",
+        "new": "Toevoegen",
+        "delete_confirm": "Weet je zeker dat je dit configuratieschema wilt verwijderen?",
+        "delete_success": "Het configuratieschema is succesvol verwijderd."
+    },
+    "config_form": {
+        "update_title": "Configuratieschema bijwerken",
+        "new_title": "Nieuw Configuratieschema",
+        "label": "Label",
+        "folder": "Mapnummer",
+        "new_success": "Configuratieschema is succesvol toegevoegd",
+        "update_success": "Configuratieschema is succesvol bijgewerkt",
+        "upload_config": "Uploaden"
+    },
+    "config_bulk_form": {
+        "title": "Bulk-upload Configuratieschema's",
+        "subtitle": "Kies één of meerdere configuratieschema's van je computer om up te loaden. De configuratieschema's krijgen allemaal hetzelfde label als de filename.",
+        "upload": "Upload",
+        "select": "Selecteer",
+        "upload_success": "Bulk-upload van configuratieschema's succesvol"
+    },
+    "quizzes": {
+        "title": "Quizzen",
+        "header_id": "ID",
+        "header_image": "Afbeelding",
+        "header_title": "Titel",
+        "header_owner": "Maker",
+        "header_description": "Omschrijving",
+        "header_value": "Prijs",
+        "header_duration": "Lengte",
+        "header_template": "Template?",
+        "header_actions": "Acties",
+        "delete_confirm": "Weet je zeker dat je deze quiz wilt verwijderen?",
+        "delete_success": "De quiz is succesvol verwijderd.",
+        "new": "Quiz toevoegen",
+        "button_ppt_questions": "Download de Powerpoint-presentatie met enkel vragen",
+        "button_ppt_answers": "Download de Powerpoint-presentatie met antwoorden",
+        "button_doc_questions": "Download een leeg antwoordformulier (Word)",
+        "button_doc_answers": "Download een ingevuld antwoordformulier (Word)",
+        "download_pptq_success": "PowerPoint (vragen) succesvol gedownload",
+        "download_ppta_success": "PowerPoint (antwoorden) succesvol gedownload",
+        "download_wordq_success": "Word (vragen) succesvol gedownload",
+        "download_worda_success": "Word (antwoorden) succesvol gedownload"
+    },
+    "quiz_form": {
+        "update_title": "Quiz bijwerken",
+        "new_title": "Nieuwe Quiz",
+        "owner": "Eigenaar*",
+        "title": "Titel*",
+        "image": "Afbeelding",
+        "config": "Configuratieschema",
+        "description": "Omschrijving",
+        "value": "Prijs",
+        "duration": "Tijdsduur",
+        "general_info": "Algemene Quiz-informatie",
+        "blocks_not_in_quiz": "Blokken niet in de quiz",
+        "blocks_in_quiz": "Blokken in de quiz",
+        "new_success": "De quiz is succesvol toegevoegd",
+        "update_success": "De quiz is succesvol bijgewerkt."
+    },
+    "pptgen":{
+        "answers_sheet": "ANTWOORDEN",
+        "answers_filename": "ANTWOORDEN"
+    },
+    "media_select_form":{
+        "title": "Selecteer media"
+    }
+}
