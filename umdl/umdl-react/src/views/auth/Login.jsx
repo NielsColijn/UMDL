@@ -37,10 +37,9 @@ export default function Login() {
                                     email: setEmailInvalid,
                                     password: setPasswordInvalid,
                                 })
+                        } else {
+                            setEmailInvalid({state: true, message: response.data.message})
                         }
-
-                    } else {
-                        setEmailInvalid({state: true, message: response.data.message})
                     }
                 }
             )
@@ -55,7 +54,7 @@ export default function Login() {
                 sm={4}
                 md={7}
                 sx={{
-                    backgroundImage: 'url(images/quizmixer_backdrop.png)',
+                    backgroundImage: 'url(images/backdrop.jpg)',
                     backgroundRepeat: 'no-repeat',
                     backgroundColor: (t) =>
                         t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],

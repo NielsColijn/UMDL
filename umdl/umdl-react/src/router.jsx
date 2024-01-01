@@ -1,6 +1,5 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import Login from "./views/auth/Login.jsx";
-import Signup from "./views/auth/Signup.jsx";
 import NotFound from "./views/other/NotFound.jsx";
 import DefaultLayout from "./components/DefaultLayout.jsx";
 import GuestLayout from "./components/GuestLayout.jsx";
@@ -28,10 +27,6 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login/>
-            },
-            {
-                path: '/signup',
-                element: <Signup />
             },
         ]
     },

@@ -14,10 +14,6 @@ export default function DefaultLayout() {
     const {user, token, setUser, setToken, notification} = useStateContext()
     const [loading, setLoading] = useState(false);
 
-    if (!token) {
-        return <Navigate to="/login"/>
-    }
-
     const { t } = useTranslation();
 
     const onLogout = (ev) => {
@@ -42,6 +38,9 @@ export default function DefaultLayout() {
             })
     }, [])
 
+    if (!token) {
+        return <Navigate to="/login"/>
+    }
 
     return (
         <div id="defaultLayout">
