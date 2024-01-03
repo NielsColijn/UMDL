@@ -5,6 +5,7 @@ import {Box, Button, Grid, Paper, TextField} from "@mui/material";
 import LoginIcon from '@mui/icons-material/Login';
 import {useTranslation} from 'react-i18next';
 import {setErrorData} from "../../helpers/ErrorData.js";
+import Copyright from "../elements/Copyright.jsx";
 
 export default function Login() {
 
@@ -65,7 +66,7 @@ export default function Login() {
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square sx={{justifyContent: 'center'}}>
                 <Box
                     sx={{
-                        pt: 20,
+                        pt: 10,
                         my: 8,
                         mx: 4,
                         display: 'flex',
@@ -77,7 +78,8 @@ export default function Login() {
                     <div className="login-center">
                         <form onSubmit={onSubmit}>
                             <div>
-                                <h1>{t('login.submit_button')}</h1>
+                                <img src="images/utrecht.png" width={300} />
+                                <h1>{t('login.title')}</h1>
                                 <br/>
                             </div>
                             <TextField fullWidth
@@ -98,6 +100,7 @@ export default function Login() {
                                     startIcon={<LoginIcon/>}>
                                 {t('login.submit_button')}
                             </Button>
+                            <Copyright />
 
                         </form>
                     </div>

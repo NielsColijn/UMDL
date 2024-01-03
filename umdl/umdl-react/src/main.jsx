@@ -18,9 +18,7 @@ import {createTheme} from "@mui/material/styles";
 library.add(fas)
 
 const myTheme = createTheme({
-    typography: {
-        fontFamily: ['Lato'],
-    },
+
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
